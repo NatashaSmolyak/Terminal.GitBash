@@ -1,4 +1,4 @@
-## Задание по терминалу Linux (Git Bush). [Home work-1](https://github.com/NatashaSmolyak/Terminal.GitBush/blob/main/HW_1_GIT_BUSH.txt)
+## Задание по терминалу Linux (Git Bash). [Home work-1](https://github.com/NatashaSmolyak/Terminal.GitBush/blob/main/HW_1_GIT_BUSH.txt)
 1) Посмотреть где я: <code> $ pwd </code>
 2) Перейти на диск D: <code> $ cd d:/ </code>
 3) Создать папку: <code> $ mkdir git</code>
