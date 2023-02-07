@@ -4,11 +4,8 @@
 3) Создать папку: <code> $ mkdir git</code>
 4) Зайти в папку: <code> $ cd git </code>
 5) Создать 3 папки: <code> $ mkdir dir_1 dir_2 dir_3 </code>
-6) Зайти в любую папку (в последнюю созданную)
-$ cd !$
-
-7) Создать 5 файлов (3 txt, 2 json)
-$ touch f1.txt f2.txt f3.txt f4.json f5.json
+6) Зайти в любую папку (в последнюю созданную): <code> $ cd !$ </code>
+7) Создать 5 файлов (3 txt, 2 json): </code> $ touch f1.txt f2.txt f3.txt f4.json f5.json </code>
 
 8) Вывод файлов списком
 $ ls -la
