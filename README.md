@@ -5,61 +5,18 @@
 4) Зайти в папку: <code> $ cd git </code>
 5) Создать 3 папки: <code> $ mkdir dir_1 dir_2 dir_3 </code>
 6) Зайти в любую папку (в последнюю созданную): <code> $ cd !$ </code>
-7) Создать 5 файлов (3 txt, 2 json): </code> $ touch f1.txt f2.txt f3.txt f4.json f5.json </code>
-
-8) Вывод файлов списком
-$ ls -la
-
-9) Создать 3 папки
-$ mkdir folder_1 folder_2 folder_3
-
-10) Вывести список содержимого папки
-$ ls -la
-total 4
-drwxr-xr-x 1 ShadowDzhek 197121 0 Nov  1 10:58 ./
-drwxr-xr-x 1 ShadowDzhek 197121 0 Nov  1 10:47 ../
--rw-r--r-- 1 ShadowDzhek 197121 0 Nov  1 10:48 f1.txt
--rw-r--r-- 1 ShadowDzhek 197121 0 Nov  1 10:49 f2.txt
--rw-r--r-- 1 ShadowDzhek 197121 0 Nov  1 10:49 f3.txt
--rw-r--r-- 1 ShadowDzhek 197121 0 Nov  1 10:49 f4.json
--rw-r--r-- 1 ShadowDzhek 197121 0 Nov  1 10:49 f5.json
-drwxr-xr-x 1 ShadowDzhek 197121 0 Nov  1 10:58 folder_1/
-drwxr-xr-x 1 ShadowDzhek 197121 0 Nov  1 10:58 folder_2/
-drwxr-xr-x 1 ShadowDzhek 197121 0 Nov  1 10:58 folder_3/
-
-11) + Открыть любой txt файл
-$ cat f1.txt
-
-12) + написать туда что-нибудь, любой текст.
-$ vim f1.txt
--Нажать Insert (начать запись текста)
-1. Hello, Vadim!
-2. My name is Natasha.
-3. I am from Belarus. 
-
-13) + сохранить и выйти.
-Нажать ESC, затем  :wq 
-
-14) Просмотр текстового файла (что записалось)
-$ cat f1.txt
-1. Hello, Vadim!
-2. My name is Natasha.
-3. I am from Belarus. 
-
-15) Редактирование файла в терминале
-$ cat >>f2.txt
-I am learning GIT terminal commands
-
--CTRL+C - закрыть файл
-
-16) Выйти из папки на уровень выше
-$ cd ..
-
-17) Зайти в папку с файлами
-$ cd dir_3
-
-18) переместить любые 2 файла, которые вы создали, в любую другую папку.
-$ mv f1.txt f2.txt ../dir_2
+7) Создать 5 файлов (3 txt, 2 json): <code> $ touch f1.txt f2.txt f3.txt f4.json f5.json </code>
+8) Вывод файлов списком: <code> $ ls -la </code>
+9) Создать 3 папки: <code> $ mkdir folder_1 folder_2 folder_3 </code>
+10) Вывести список содержимого папки: </code> $ ls </code>
+11) Открыть любой txt файл: <code> $ vim f1.txt </code>
+12) Написать туда что-нибудь, любой текст: <code> Нажать Insert (начать запись текста) 1. Hello, Vadim! 2. My name is Natasha. 3. I am from Belarus. </code>
+13) Сохранить и выйти: <code> Нажать ESC, затем  :wq </code> 
+14) Просмотр текстового файла (что записалось): <code> $ cat f1.txt </code>
+15) Редактирование файла в терминале: <code> $ cat >>f2.txt I am learning GIT terminal commands </code> <code> CTRL+C </code> - закрыть файл
+16) Выйти из папки на уровень выше: <code> $ cd .. </code>
+17) Зайти в папку с файлами: <code> $ cd dir_3 </code>
+18) Переместить любые 2 файла, которые вы создали, в любую другую папку: <code> $ mv f1.txt f2.txt ../dir_2 </code>
 
 19) скопировать любые 2 файла, которые вы создали, в любую другую папку.
 $ cp f3.txt f4.json folder_3
