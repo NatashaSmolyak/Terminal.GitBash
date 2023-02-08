@@ -45,22 +45,11 @@
 1) Отправить http запрос на сервер: http://162.55.220.72:5005/terminal-hw-request
 <code> $ curl 'http://162.55.220.72:5006/terminal-hw-request' </code>
 - Приходит ответ от сервера с новым заданием:
- <code>{
-  "Intro": "Hello!! This is your the first response from server",
-  "Tasks": {
-    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
-    "result": [
-      "Your_String",
-      "Your_number"
-    ]
-  }
-} </code>
+ <code> {"Intro": "Hello!! This is your the first response from server",
+ "Tasks": {"Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
+  "result": ["Your_String", "Your_number"]}} </code>
  - Отправляем запрос на сервер согласно постановке задачи: <code> $ curl 'http://162.55.220.72:5005/get_method?name=Nata&age=50'</code>
- - Получаем ответ от сервера:
- <code>[
-  "Nata",
-  "50"
-] </code>
+ - Получаем ответ от сервера:<code>["Nata","50"] </code>
 
 2) Написать скрипт (1. Перейти в папку.2. создать 3 папки, 3. перейти в любую папку, 4. создать 5 файлов, 5.
 создать 3 папки, 6. вывести список содержимого папки, 7. переместить 2 файла в другую папку)
