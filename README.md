@@ -40,3 +40,47 @@
 - <code> $ date +"%D" </code> Результат: *11/02/22*
 - <code> $ date +"%H:%M:%S" </code> Результат: *18:29:27*
 - <code> $ date +"%d-%m-%Y-%H:%M:%S" </code> Результат: *02-11-2022-18:31:49*
+---
+## Дополнительное задание.
+1) Отправить http запрос на сервер: http://162.55.220.72:5005/terminal-hw-request
+<code> $ curl 'http://162.55.220.72:5006/terminal-hw-request' </code>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   283  100   283    0     0   1582      0 --:--:-- --:--:-- --:--:--  1598{
+  "Intro": "Hello!! This is your the first response from server",
+  "Tasks": {
+    "Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
+    "result": [
+      "Your_String",
+      "Your_number"
+    ]
+  }
+}
+
+
+$ curl 'http://162.55.220.72:5006/get_method?name=Nata&age=50'
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    22  100    22    0     0    152      0 --:--:-- --:--:-- --:--:--   152[
+  "Nata",
+  "50"
+]
+
+2) Написать скрипт (1. Перейти в папку.2. создать 3 папки, 3. перейти в любую папку, 4. создать 5 файлов, 5.
+создать 3 папки, 6. вывести список содержимого папки, 7. переместить 2 файла в другую папку)
+  Создаем директорию: mkdir star
+  Создаем файл: touch script1.sh
+  Открываем файл в Vim: vim script.sh
+  Записываем скрипт:
+  #!/bin/sh
+  cd star
+  mkdir folder_1 folder_2 folder_3
+  cd folder_1
+  touch f1.txt f2.txt f3.txt f4.json f5.json
+  mkdir folder_4 folder_5 folder_6
+  ls -la
+  mv f1.txt f2.txt folder_4
+  Нажимаем Esc, затем :wq
+  Запускаем скрипт 
+  $ sh script1.sh
