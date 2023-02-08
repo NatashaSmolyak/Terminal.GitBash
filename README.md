@@ -42,7 +42,7 @@
 - <code> $ date +"%d-%m-%Y-%H:%M:%S" </code> Результат: *02-11-2022-18:31:49*
 ---
 ## Дополнительное задание.
-1) Отправить http запрос на сервер: http://162.55.220.72:5005/terminal-hw-request
+1) Отправить http запрос на сервер: http://162.55.220.72:5005/terminal-hw-request 
 <code> $ curl 'http://162.55.220.72:5006/terminal-hw-request' </code>
 - Приходит ответ от сервера с новым заданием:
  <code> {"Intro": "Hello!! This is your the first response from server",
@@ -70,7 +70,7 @@
   mkdir folder_4 folder_5 folder_6
   ls -la
   mv f1.txt f2.txt folder_4 </code>
-  Сохраняем и выходим: </code> Esc </code> , затем <code> :wq </code>
-  Запускаем скрипт:
-  <code> $ sh script1.sh </code>
+ Сохраняем и выходим: </code> Esc </code> , затем <code> :wq </code>
+ Запускаем скрипт:
+ <code> $ sh script1.sh </code>
   
