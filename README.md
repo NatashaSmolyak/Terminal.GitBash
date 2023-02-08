@@ -42,13 +42,13 @@
 - <code> $ date +"%d-%m-%Y-%H:%M:%S" </code> Результат: *02-11-2022-18:31:49*
 ---
 ## Дополнительное задание.
-1) Отправить http запрос на сервер: http://162.55.220.72:5005/terminal-hw-request 
+1) Отправить http-запрос на сервер: http://162.55.220.72:5005/terminal-hw-request 
 <code> $ curl 'http://162.55.220.72:5006/terminal-hw-request' </code>
 - Приходит ответ от сервера с новым заданием:
  <code> {"Intro": "Hello!! This is your the first response from server",
  "Tasks": {"Task_1": "Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)",
   "result": ["Your_String", "Your_number"]}} </code>
- - Отправляем запрос на сервер согласно постановке задачи: <code> $ curl 'http://162.55.220.72:5005/get_method?name=Nata&age=50'</code>
+ - Отправляем http-запрос на сервер согласно постановке задачи: <code> $ curl 'http://162.55.220.72:5005/get_method?name=Nata&age=50'</code>
  - Получаем ответ от сервера:<code>["Nata","50"] </code>
 
 2) Написать скрипт: 
@@ -69,7 +69,8 @@
   touch f1.txt f2.txt f3.txt f4.json f5.json
   mkdir folder_4 folder_5 folder_6
   ls -la
-  mv f1.txt f2.txt folder_4 </code>
+  mv f1.txt f2.txt folder_4
+</code>
  Сохраняем и выходим: <code> Esc </code> , затем <code> :wq </code>
  Запускаем скрипт:
  <code> $ sh script1.sh </code>
