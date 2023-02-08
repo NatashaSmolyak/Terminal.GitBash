@@ -61,7 +61,9 @@
  - Переместить 2 файла в другую папку.
  
   Создаем файл: <code> $ touch script1.sh </code>
+  
   Открываем файл в Vim: <code> $ vim script.sh </code>
+  
   Записываем скрипт:
 <code>
  #!/bin/sh
@@ -75,4 +77,5 @@
 </code>
 
  Сохраняем и выходим: <code> Esc </code> , затем <code> :wq </code>
+ 
  Запускаем скрипт: <code> $ sh script1.sh </code>
