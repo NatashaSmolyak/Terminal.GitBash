@@ -73,3 +73,4 @@
   Сохраняем и выходим: </code> Esc </code> , затем <code> :wq </code>
   Запускаем скрипт:
   <code> $ sh script1.sh </code>
+  
