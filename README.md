@@ -65,7 +65,7 @@
   Открываем файл в Vim: <code> $ vim script.sh </code>
   
   Записываем скрипт:
-<code>
+```
  #!/bin/sh
  cd star
  mkdir folder_1 folder_2 folder_3
@@ -74,7 +74,7 @@
  mkdir folder_4 folder_5 folder_6
  ls -la
  mv f1.txt f2.txt folder_4
-</code>
+```
 
  Сохраняем и выходим: <code> Esc </code> , затем <code> :wq </code>
  
